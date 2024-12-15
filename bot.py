@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Define your list of authorized user IDs
-AUTHORIZED_USERS = [123456789, 987654321]  # Replace with actual Telegram user IDs
+AUTHORIZED_USERS = [7341059064]  # Replace with actual Telegram user IDs
 
 # Function to handle the /start command
 def start(update: Update, context: CallbackContext):
@@ -27,7 +27,7 @@ def unknown(update: Update, context: CallbackContext):
 
 def main():
     # Replace 'YOUR_TOKEN' with your actual bot token from BotFather
-    TOKEN = "YOUR_TOKEN"
+    TOKEN = "7830905185:AAEdn-1_yDD1USvR6jdSWfNktB_jLAfetOI"
 
     updater = Updater(token=TOKEN, use_context=True)
     dispatcher = updater.dispatcher
